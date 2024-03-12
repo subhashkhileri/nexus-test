@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-entity
+  annotations:
+    pagerduty.com/integration-key: 2fe7a1c9821f4c03c0c200e8071db645
+    pagerduty.com/service-id: PICTKW8
+spec:
+  type: website
+  lifecycle: development
+  owner: janus-authors
