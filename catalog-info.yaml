@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: nexus-test-entity
   annotations:
-    nexus-repository-manager/docker.image-name: nexus-repo-nexus.backstage-qe-eu-de-2-bx2-c74b3ed44ce86949f501aefb2db80652-0000.eu-de.containers.appdomain.cloud/mynexusrepo,
+    nexus-repository-manager/docker.image-name: nexus-web-nexus.backstage-qe-eu-de-2-bx2-c74b3ed44ce86949f501aefb2db80652-0000.eu-de.containers.appdomain.cloud/mynexusrepo
 spec:
   type: website
   lifecycle: development
