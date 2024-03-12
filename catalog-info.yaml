@@ -1,10 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test-entity
+  name: nexus-test-entity
   annotations:
-    pagerduty.com/integration-key: 2fe7a1c9821f4c03c0c200e8071db645
-    pagerduty.com/service-id: PICTKW8
+    nexus-repository-manager/docker.image-name: nexus-web-nexus.apps.w1vhm6jd.eastus.aroapp.io/mytestrepo,
 spec:
   type: website
   lifecycle: development
