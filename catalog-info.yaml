@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: nexus-test-entity
   annotations:
-    nexus-repository-manager/docker.image-name: pat/postgresql-15
+    nexus-repository-manager/docker.image-name: pat/hello
 spec:
   type: website
   lifecycle: development
